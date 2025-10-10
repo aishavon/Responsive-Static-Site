@@ -117,18 +117,18 @@ justify-content: center;
 
 .bottom-section .content-wrapper {
 	border-top: 5px solid #EEE;
-	border-bottom: 5px solid #EEE;
+	/* border-bottom: 5px solid #EEE; */
 }
 
 .section-one,
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	padding: 0 40px;
+	/* padding: 0 40px; */
 	width: 100%;
 	border-bottom: 5px solid #EEE;
 }
-/**** commenting out for now
+/**** commenting out for now **
 .section-one {
 	width: 29%;
 }
@@ -173,3 +173,78 @@ footer span {
 	color: #45610E;
 	font-size: 14px;
 }
+
+@media all and (min-width: 768px) {
+      /* Tablet styles here */
+
+.bottom-section .content-wrapper {
+	/* border-top: 5px solid #EEE; */
+	justify-content: space-evenly;
+
+	/* border-bottom: 5px solid #EEE; */
+}
+
+/* .section-one, 
+.section-two,
+.section-three {
+	box-sizing: border-box;
+	 padding: 0 40px; 
+	width: 100%;
+	 border-bottom: 5px solid #EEE; 
+}
+ commenting out for now **/
+
+.section-one {
+	width: 27%;
+}
+
+.section-two {
+	width: 35%;
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+	padding: 0 30px;
+}
+
+.section-three {
+	width: 27%;
+} 
+}
+
+
+
+
+
+@media all and (min-width: 1200px) {
+	/* Desktop styles here */
+	body {
+		 font-size: 1em;
+	}
+
+	header .content-wrapper {
+
+	}
+
+	
+/* header h1 { 
+	 padding: 38px 0; 
+	width: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #77a466;
+}
+
+header h1 span {
+	color: #45610E;
+}
+
+header nav {
+	float: right;
+	padding: 20px 0;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	/* list-style: none; */
+}
+
